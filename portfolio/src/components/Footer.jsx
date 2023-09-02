@@ -6,7 +6,6 @@ import React, { useEffect, useState } from "react";
 import { AiOutlineCopyright } from "react-icons/ai";
 import { BsFillTriangleFill } from "react-icons/bs";
 
-
 export default function Footer() {
   const [scroll, setScroll] = useState(0);
 
@@ -58,7 +57,13 @@ export default function Footer() {
               className="flex items-center p-3 h-14 w-14 rounded-full border shadow-md shadow-slate-300 bg-white"
               title="Replit - PranavShilavane"
             >
-              <Image src="/replit.png" alt="" className="h-full w-full" />
+              <Image
+                src="/replit.png"
+                alt=""
+                className="h-full w-full"
+                height={"3"}
+                width={"3"}
+              />
             </a>
             <a
               href="https://github.com/alonepranav"
@@ -66,7 +71,13 @@ export default function Footer() {
               className="flex items-center p-3 h-14 w-14 rounded-full border shadow-md shadow-slate-300 bg-white"
               title="Github - alonepranav"
             >
-              <Image src="/github.png" alt="" className="h-full w-full" />
+              <Image
+                src="/github.png"
+                alt=""
+                className="h-full w-full"
+                height={"3"}
+                width={"3"}
+              />
             </a>
             <a
               href="https://github.com/pranavshilavane"
@@ -74,7 +85,13 @@ export default function Footer() {
               className="flex items-center p-3 h-14 w-14 rounded-full border shadow-md shadow-slate-300 bg-white"
               title="Github - pranavshilavane"
             >
-              <Image src="/github.png" alt="" className="h-full w-full" />
+              <Image
+                src="/github.png"
+                alt=""
+                className="h-full w-full"
+                height={"3"}
+                width={"3"}
+              />
             </a>
             <a
               href="https://www.linkedin.com/in/pranav-shilavane-9245b8236/"
@@ -82,7 +99,13 @@ export default function Footer() {
               className="flex items-center p-3 h-14 w-14 rounded-full border shadow-md shadow-slate-300 bg-white"
               title="Linkedin - PranavShilavane"
             >
-              <Image src="/linkedin.png" alt="" className="h-full w-full" />
+              <Image
+                src="/linkedin.png"
+                alt=""
+                className="h-full w-full"
+                height={"3"}
+                width={"3"}
+              />
             </a>
             <a
               href="https://instagram.com/pranavshilavane"
@@ -90,7 +113,13 @@ export default function Footer() {
               className="flex items-center p-3 h-14 w-14 rounded-full border shadow-md shadow-slate-300 bg-white"
               title="Instagram - PranavShilavane"
             >
-              <Image src="/instagram.png" alt="" className="h-full w-full" />
+              <Image
+                src="/instagram.png"
+                alt=""
+                className="h-full w-full"
+                height={"3"}
+                width={"3"}
+              />
             </a>
             <a
               href="https://x.com/pranavshilavane"
@@ -98,7 +127,13 @@ export default function Footer() {
               className="flex items-center p-3 h-14 w-14 rounded-full border shadow-md shadow-slate-300 bg-white"
               title="Twitter - PranavShilavane"
             >
-              <Image src="/twitter.png" alt="" className="h-full w-full" />
+              <Image
+                src="/twitter.png"
+                alt=""
+                className="h-full w-full"
+                height={"3"}
+                width={"3"}
+              />
             </a>
           </div>
         </div>

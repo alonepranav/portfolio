@@ -28,7 +28,7 @@ export default function Skills() {
                         key={i}
                         className="flex justify-center items-center flex-col h-36 w-36 gap-3 p-3"
                       >
-                        <img src={`/l/${a}.png`} className="h-32 w-full" />
+                        <img src={`/l/${a}.png`} className="h-24 w-24" />
                         <p>{a}</p>
                       </div>
                     );
@@ -47,7 +47,7 @@ export default function Skills() {
                         key={i}
                         className="flex justify-center items-center flex-col h-36 w-36 gap-3 p-3"
                       >
-                        <img src={`/l/${a}.png`} className="h-32 w-full" />
+                        <img src={`/l/${a}.png`} className="h-24 w-24" />
                         <p>{a}</p>
                       </div>
                     );
@@ -65,7 +65,7 @@ export default function Skills() {
                         key={i}
                         className="flex justify-center items-center flex-col h-36 w-36 gap-3 p-3"
                       >
-                        <img src={`/l/${a}.png`} className="h-32 w-full" />
+                        <img src={`/l/${a}.png`} className="h-24 w-24" />
                         <p>{a}</p>
                       </div>
                     );
