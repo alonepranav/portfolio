@@ -22,9 +22,7 @@ export default function Contact() {
         ...formData,
       });
 
-      console.log(res);
-
-      if (res.data.success) {
+      setTimeout(() => {
         setFormData({
           name: "",
           email: "",
@@ -32,7 +30,8 @@ export default function Contact() {
           message: "",
         });
         alert("Thansks for our message 🙂");
-      }
+      }, 2000);
+      
     } catch (err) {
       console.log(err);
     }
