@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function About() {
@@ -76,11 +77,13 @@ export default function About() {
                   Get my RESUME
                 </button>
               </a>
-              <a href="https://project-pranav.web.app" target="_blank">
+              <Link href={"/#projects"}>
+                {/* <a href="https://project-pranav.web.app" target="_blank"> */}
                 <button className="bg-blue-600 px-4 py-[.5rem] text-white font-semibold tracking-widest text-sm rounded-sm">
                   See my projects
                 </button>
-              </a>
+                {/* </a> */}
+              </Link>
             </div>
           </div>
         </div>
