@@ -1,6 +1,10 @@
 "use client";
 
+import axios from "axios";
 import React, { useState } from "react";
+
+const BACKEND_SERVER =
+  "https://alonepranav.onrender.com/email/portfolio/sendemail";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -12,7 +16,26 @@ export default function Contact() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log(formData);
+
+    try {
+      const res = await axios.post(BACKEND_SERVER, {
+        ...formData,
+      });
+
+      console.log(res);
+
+      if (res.data.success) {
+        setFormData({
+          name: "",
+          email: "",
+          subject: "",
+          message: "",
+        });
+        alert("Thansks for our message 🙂");
+      }
+    } catch (err) {
+      console.log(err);
+    }
   };
 
   return (
