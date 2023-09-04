@@ -61,8 +61,8 @@ export default function Footer() {
                 src="/replit.png"
                 alt=""
                 className="h-full w-full"
-                height={"3"}
-                width={"3"}
+                height={"100"}
+                width={"100"}
               />
             </a>
             <a
@@ -75,8 +75,8 @@ export default function Footer() {
                 src="/github.png"
                 alt=""
                 className="h-full w-full"
-                height={"3"}
-                width={"3"}
+                height={"100"}
+                width={"100"}
               />
             </a>
             <a
@@ -89,8 +89,8 @@ export default function Footer() {
                 src="/github.png"
                 alt=""
                 className="h-full w-full"
-                height={"3"}
-                width={"3"}
+                height={"100"}
+                width={"100"}
               />
             </a>
             <a
@@ -103,8 +103,8 @@ export default function Footer() {
                 src="/linkedin.png"
                 alt=""
                 className="h-full w-full"
-                height={"3"}
-                width={"3"}
+                height={"100"}
+                width={"100"}
               />
             </a>
             <a
@@ -117,8 +117,8 @@ export default function Footer() {
                 src="/instagram.png"
                 alt=""
                 className="h-full w-full"
-                height={"3"}
-                width={"3"}
+                height={"100"}
+                width={"100"}
               />
             </a>
             <a
@@ -131,8 +131,8 @@ export default function Footer() {
                 src="/twitter.png"
                 alt=""
                 className="h-full w-full"
-                height={"3"}
-                width={"3"}
+                height={"100"}
+                width={"100"}
               />
             </a>
           </div>
