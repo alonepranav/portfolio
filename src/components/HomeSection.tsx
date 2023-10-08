@@ -33,7 +33,10 @@ export default function HomeSection() {
                 Do you want to contact me?
               </button>
             </Link>
-            <a href="https://github.com/alonepranav/my-resume" target="_blank">
+            <a
+              href="https://github.com/alonepranav/my-resume/Pranav_Shilavane.pdf"
+              target="_blank"
+            >
               <button className="py-2 px-8 btn-gradient2 rounded-full text-base mx-3 font-bold">
                 Get my RESUME
               </button>

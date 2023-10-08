@@ -10,7 +10,7 @@ interface card {
 
 export default function Card(cardDetails: card) {
   return (
-    <>
+    <div>
       <div className="h-[28rem] w-[22rem] flex justify-between items-center flex-col border border-stone-200 overflow-hidden rounded p-4 bg-white shadow-lg shadow-stone-200">
         <div className="h-60  rounded-md overflow-hidden">
           <img
@@ -18,6 +18,7 @@ export default function Card(cardDetails: card) {
             className="h-full w-full object-cover rounded hover:scale-[1.2] transition-all"
           />
         </div>
+
         <div className="flex justify-between w-fit h-1/3 flex-col">
           <p className="text-2xl font-semibold">{cardDetails.title}</p>
           <p className="text-[.9rem]">{cardDetails.description}</p>
@@ -38,6 +39,6 @@ export default function Card(cardDetails: card) {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }

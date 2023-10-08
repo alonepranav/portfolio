@@ -10,12 +10,12 @@ export default function About() {
       >
         <div className="relative w-full lg:w-1/2 h-fit pt-20 flex justify-center items-center">
           <div className="lg:absolute -top-32 md:-top-48 right-0 md:right-32 z-10 rounded-lg overflow-hidden shadow-md shadow-white">
-            <div className="h-80 w-72 absolute bg-[rgba(0,0,0,0.4)] hover:bg-[rgba(0,0,0,0.2)]  rounded-md"></div>
+            <div className="h-80 w-72 absolute bg-[rgba(0,0,0,0)] hover:bg-[rgba(0,0,0,0.2)]  rounded-md"></div>
             <img src="/bg1.jpg" className="h-80 w-72 object-cover" />
           </div>
 
           <div className="hidden lg:block lg:absolute md:top-0 md:right-80 z-10 rounded-lg overflow-hidden md:shadow-md md:shadow-white">
-            <div className="h-80 w-72 absolute  bg-[rgba(0,0,0,0.4)] hover:bg-[rgba(0,0,0,0.2)]  rounded-md"></div>
+            <div className="h-80 w-72 absolute  bg-[rgba(0,0,0,0)] hover:bg-[rgba(0,0,0,0.2)]  rounded-md"></div>
             <img
               src="/bg2.jpg"
               className="h-80 w-72 lg:h-72 lg:w-60 object-cover"
@@ -70,7 +70,7 @@ export default function About() {
 
             <div className="flex gap-4">
               <a
-                href="https://github.com/alonepranav/my-resume"
+                href="https://github.com/alonepranav/my-resume/Pranav_Shilavane.pdf"
                 target="_blank"
               >
                 <button className="bg-blue-600 px-4 py-[.5rem] text-white font-semibold tracking-widest text-sm rounded-sm">

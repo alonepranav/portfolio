@@ -3,8 +3,7 @@
 import axios from "axios";
 import React, { useState } from "react";
 
-const BACKEND_SERVER =
-  "https://alonepranav.onrender.com/email/portfolio/sendemail";
+const BACKEND_SERVER = process.env.NEXT_PUBLIC_BACKEND_SERVER;
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -29,9 +28,8 @@ export default function Contact() {
           subject: "",
           message: "",
         });
-        alert("Thansks for our message 🙂");
-      }, 2000);
-      
+        alert("Thanks for our message 🙂");
+      }, 1000);
     } catch (err) {
       console.log(err);
     }

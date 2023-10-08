@@ -3,24 +3,45 @@ import Card from "./Card";
 
 const projectData = [
   {
-    title: "Project Pranav",
+    title: "Twitter Clone",
+    description: "Frontend Twitter Clone",
+    description: "Frontend Twitter clone using ReactJS & Tailwind CSS.",
+    link: "https://twitter-pranav.vercel.app",
+    image: "/projects/project1.png",
+  },
+  {
+    title: "Hotstar Clone",
+    description: "Frontend Disney Plus Hotstar Clone",
     description:
-      "Project showcase website. Here I have shocased all my projects.",
-    link: "https://project-pranav.web.app",
-    image: "/project1.png",
+      "Frontend Disney Plus Hotstar clone using ReactJS & Tailwind CSS.",
+    link: "https://hotstar-pranav.web.app",
+    image: "/projects/project2.png",
   },
   {
     title: "Instagram Clone",
     description: "Frontend Instagram clone using ReactJS & Tailwind CSS.",
-    link: "https://pranav-instagram-clone.vercel.app",
-    github: "https://github.com/alonepranav/instagram-clone",
-    image: "/project2.png",
+    link: "https://instagram-pranav.web.app",
+    image: "/projects/project3.png",
   },
   {
-    title: "Farm Green",
-    description: "MERN Stack project of vegetable grocery website.",
-    link: "https://farmgreen.vercel.app",
-    image: "/project3.png",
+    title: "Project Pranav",
+    description:
+      "Project showcase website. Here I have shocased all my projects.",
+    link: "https://project-pranav.web.app",
+    image: "/projects/project4.png",
+  },
+  {
+    title: "Form React",
+    description: "Forms using ReactJS & Tailwind CSS.",
+    link: "https://alonepranav.github.io/form-react",
+    github: "https://github.com/alonepranav/form-react",
+    image: "/projects/project5.png",
+  },
+  {
+    title: "Tic Tac Toe",
+    description: "Simple game using HTML, CSS and JS.",
+    link: "https://alonepranav.github.io/Project-HTML-CSS-JS/tic-tac-toe-game/",
+    image: "/projects/project5.png",
   },
 ];
 

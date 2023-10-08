@@ -24,7 +24,7 @@ export default function Home() {
       {loading ? (
         <Loader />
       ) : (
-        <>
+        <div>
           <Navbar />
           <div>
             <HomeSection />
@@ -34,7 +34,7 @@ export default function Home() {
             <Contact />
           </div>
           <Footer />
-        </>
+        </div>
       )}
     </>
   );
