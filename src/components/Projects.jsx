@@ -41,7 +41,7 @@ const projectData = [
     title: "Tic Tac Toe",
     description: "Simple game using HTML, CSS and JS.",
     link: "https://alonepranav.github.io/Project-HTML-CSS-JS/tic-tac-toe-game/",
-    image: "/projects/project5.png",
+    image: "/projects/project6.png",
   },
 ];
 
