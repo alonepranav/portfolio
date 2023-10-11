@@ -7,6 +7,55 @@ const projectData = [
     description: "Frontend Twitter Clone",
     description: "Frontend Twitter clone using ReactJS & Tailwind CSS.",
     link: "https://twitter-pranav.vercel.app",
+    github: "https://github.com/alonepranav/twitter-clone",
+    image: "/projects/project1.png",
+  },
+  {
+    title: "Hotstar Clone",
+    description: "Frontend Disney Plus Hotstar Clone",
+    description:
+      "Frontend Disney Plus Hotstar clone using ReactJS & Tailwind CSS.",
+    link: "https://hotstar-pranav.vercel.app",
+    github: "https://github.com/alonepranav/hotstar-clone",
+    image: "/projects/project2.png",
+  },
+  {
+    title: "Instagram Clone",
+    description: "Frontend Instagram clone using ReactJS & Tailwind CSS.",
+    link: "https://instagram-pranav.web.app",
+    github: "https://github.com/alonepranav/instagram-clone",
+    image: "/projects/project3.png",
+  },
+  {
+    title: "Project Pranav",
+    description:
+      "Project showcase website. Here I have shocased all my projects.",
+    link: "https://project-pranav.web.app",
+    image: "/projects/project4.png",
+  },
+  {
+    title: "Form React",
+    description: "Forms using ReactJS & Tailwind CSS.",
+    link: "https://alonepranav.github.io/form-react",
+    github: "https://github.com/alonepranav/form-react",
+    image: "/projects/project5.png",
+  },
+  {
+    title: "Tic Tac Toe",
+    description: "Simple game using HTML, CSS and JS.",
+    link: "https://alonepranav.github.io/Project-HTML-CSS-JS/tic-tac-toe-game/",
+    github:
+      "https://github.com/alonepranav/Project-HTML-CSS-JS/tree/main/tic-tac-toe-game",
+    image: "/projects/project6.png",
+  },
+];
+
+const projectData = [
+  {
+    title: "Twitter Clone",
+    description: "Frontend Twitter Clone",
+    description: "Frontend Twitter clone using ReactJS & Tailwind CSS.",
+    link: "https://twitter-pranav.vercel.app",
     image: "/projects/project1.png",
   },
   {
