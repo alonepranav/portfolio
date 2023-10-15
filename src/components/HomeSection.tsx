@@ -34,7 +34,7 @@ export default function HomeSection() {
               </button>
             </Link>
             <a
-              href="https://github.com/alonepranav/my-resume/Pranav_Shilavane.pdf"
+              href="/Pranav_Shilavane.pdf"
               target="_blank"
             >
               <button className="py-2 px-8 btn-gradient2 rounded-full text-base mx-3 font-bold">

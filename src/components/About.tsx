@@ -70,7 +70,7 @@ export default function About() {
 
             <div className="flex gap-4">
               <a
-                href="https://github.com/alonepranav/my-resume/Pranav_Shilavane.pdf"
+                href="/Pranav_Shilavane.pdf"
                 target="_blank"
               >
                 <button className="bg-blue-600 px-4 py-[.5rem] text-white font-semibold tracking-widest text-sm rounded-sm">
